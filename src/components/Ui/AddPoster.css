@@ -1,0 +1,124 @@
+.container-fluid{
+      width: 1292px;
+      height: 622px;
+      margin-top:92px;
+      margin-left: calc(50% - 1292px/2 - 15px);
+      background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+      border-radius: 20px;
+}
+ .row{
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      width: 1292px;
+      height: 619px;
+      /* padding: 0px 0px 0px 206px; */
+      border: 5px solid yellowgreen;
+}
+.left-border{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 675;
+      height: 316;
+      /* margin-top: 151.5px; */
+      margin-left: 126.5px;
+      gap: 30px;
+}
+.year{
+      width: 122px;
+      height: 24px;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #2A7CC7;
+}
+.library{
+      display: flex;
+    width: 548px; 
+    height: 80px; 
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+.dialogue{
+      width: 376px;
+      height: 60px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.2px;
+      color: #737373;
+
+
+
+}
+.btn{
+      width: 221px;
+      height: 62px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 40px;
+      gap: 10px;
+      width: 221px;
+      height: 62px;
+      background: #23A6F0;
+     border-radius: 5px;
+
+
+
+}  
+
+.right-part{
+     width: 697px;
+     height: 619px;
+}
+.hero-image{
+      width: 696px;
+      height: 619px;
+      margin-left: 0.5px;
+      margin-right: 0.5px;
+      margin-top: 15px;
+      margin-left: calc(50% - 696px/2 - 0.5px);
+      margin-bottom: 0px;
+      margin-left: 675px;
+      
+         
+}
+.pic{
+     width:696 px; 
+     height:419px;
+     margin-top: 120px;
+     margin-left: 190px;
+}
+.ellipse{
+      width: 79.92px;
+      height: 79.92px;
+      margin-left: 62.67px;
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 80%;
+      margin-top: 0px;
+        
+}
+.ellipse-big{
+      width: 399.88px;
+      height: 399.88px;
+      margin-left: 122.98px;
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 80%;
+      margin-top: 0px;
+
+}

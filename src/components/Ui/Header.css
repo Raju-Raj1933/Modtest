@@ -1,0 +1,78 @@
+.home-bestseller-container{
+      margin: 30px;
+  
+  }
+  
+  .home-bestseller-list{
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .section-heading{
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+  }
+  .section-heading img{
+      width: 40px;
+  }
+  .home-bestseller-item{
+      width: 300px;
+      border-radius:0 0 15px 15px;
+      padding: 15px;
+
+  }
+  .home-bestseller-item:hover{
+      /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
+      /* box-shadow: none; */
+      transition: 0.2s ease-in;
+  }
+  .item-body{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  .home-bestseller-item img{
+      width: 100%;
+  }
+  .plantName{
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0;
+  }
+  .price{
+      margin-top: 1px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      justify-content: flex-start !important;
+      margin-left: 1rem;
+  }
+  .oldPrice{
+      text-decoration: line-through;
+      
+      color: #787878;
+      font-size: .8rem;
+  }
+  .newPrice{
+      color: #008c5d;
+  }
+  .addToCart{
+      width: 100%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #008c5d;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .addToCart:hover{
+      background-color: white;
+      outline: 1px solid #008c5d;
+      color: #008c5d;
+      transition: .2s;
+  }
